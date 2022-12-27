@@ -1,0 +1,30 @@
+new-tweet {
+  display: flex;
+  flex-direction: column;
+  align-items: inherit;
+}
+
+textarea {
+  width: -webkit-fill-available;
+  background-color: #f4f1ec;
+  border-bottom: solid;
+  border-top: hidden;
+  border-right: hidden;
+  border-left: hidden;
+}
+
+.button {
+  display: flex;
+  justify-content: space-between;
+}
+
+button {
+  font-family: 'Bungee', sans-serif;
+  background-color: #4056A1;
+  color: white;
+}
+
+output {
+  font-family: 'Bungee', sans-serif;
+}
+

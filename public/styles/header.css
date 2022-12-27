@@ -1,0 +1,11 @@
+header {
+  background-color: antiquewhite;
+  background-image: url("https://www.transparenttextures.com/patterns/argyle.png");
+  height: 520px;
+  width: 100%;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: end;
+}
+
