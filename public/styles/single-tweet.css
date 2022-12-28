@@ -1,0 +1,27 @@
+article#single-tweet {
+  border: solid;
+  padding: 10px;
+}
+
+article#single-tweet header {
+  display: flex;
+  justify-content: space-between;
+  padding-left: 6px; 
+  padding-right: 20px;
+}
+
+article#single-tweet div {
+  display: flex;
+  justify-content: space-between;
+  font-size: 15px; 
+  padding-left: 15px; 
+  padding-right: 15px;
+}
+
+article#single-tweet:hover {
+  box-shadow: 7px 5px lightgrey;
+}
+
+div span.icon:hover {
+  color: #c5a87c;
+}

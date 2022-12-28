@@ -14,7 +14,8 @@
     <link rel="stylesheet" href="/styles/nav.css" type="text/css" />
     <link rel="stylesheet" href="/styles/header.css" type="text/css" />
     <link rel="stylesheet" href="/styles/new-tweet.css" type="text/css" />
-
+    <link rel="stylesheet" href="/styles/single-tweet.css" type="text/css" />
+    
     <!-- External JS -->
     <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.4.1/jquery.min.js"></script>
 
@@ -35,7 +36,7 @@
       </span>
     </nav>
 
-    <header>
+    <header id='head'>
       <div>
           <img src="/images/profile-hex.png"> 
       </div>
@@ -56,6 +57,33 @@
             <output name="counter" class="counter" for="tweet-text">140</output>
           </div>
         </form>
+      </section>
+      <br>
+      <br>
+      <section>
+        <article id="single-tweet">
+          <header>
+            <span>
+              <i class="fas fa-skull"></i>
+              <span style='color:grey; padding-left: 10px;'> Newton</span>
+            </span>
+            <span style='color: lightgrey;'>@Sirisaac</span>
+          </header>
+          <br>
+          <footer>
+            <textarea>My legs are screaming for a walkout</textarea>
+          </footer>
+
+          <div>
+            <span>10 days ago</span>
+            <span>
+              <span class="icon"><i class="fa-brands fa-font-awesome"></i></span>
+              <span class="icon" style='padding-left:3px;'><i class="fas fa-retweet"></i></span>
+              <span class="icon" style='padding-left:3px;'><i class="fa-solid fa-heart"></i></span>
+            </span>
+          </div>
+        </article>
+        <br>
       </section>
     </main>
   </body>
