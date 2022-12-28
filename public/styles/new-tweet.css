@@ -13,7 +13,7 @@ textarea {
   border-left: hidden;
 }
 
-.button {
+div.button {
   display: flex;
   justify-content: space-between;
 }
@@ -24,7 +24,10 @@ button {
   color: white;
 }
 
-output {
+output.counter {
   font-family: 'Bungee', sans-serif;
 }
 
+output.counter:invalid{
+  color: red;
+}
