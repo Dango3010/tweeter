@@ -29,6 +29,6 @@ output.counter {
   font-family: 'Bungee', sans-serif;
 }
 
-output.counter:invalid{
+output.negative{
   color: red;
 }
