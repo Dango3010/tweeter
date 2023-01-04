@@ -4,7 +4,7 @@ new-tweet {
   align-items: inherit;
 }
 
-textarea {
+.text {
   width: -webkit-fill-available;
   background-color: #f4f1ec;
   border-bottom: solid;
@@ -31,4 +31,16 @@ output.counter {
 
 output.negative{
   color: red;
+}
+
+.new-tweet p{
+  display: none;
+}
+
+.new-tweet p.show{
+  display: block;
+  color: red;
+  border: solid;
+  text-align: left;
+  padding: 10px;
 }

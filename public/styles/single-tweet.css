@@ -3,7 +3,7 @@ article#single-tweet {
   padding: 10px;
 }
 
-article#single-tweet header {
+article#single-tweet header, footer {
   display: flex;
   justify-content: space-between;
   padding-left: 6px; 
@@ -25,3 +25,4 @@ article#single-tweet:hover {
 div span.icon:hover {
   color: #c5a87c;
 }
+
