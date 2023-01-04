@@ -22,7 +22,7 @@ $(document).ready(function () {
       <span style='color: lightgrey;'>${data['user']['handle']}</span>
     </header>
     <br>
-    <p class='text' style='margin-top: 11px;'>
+    <p class='text' style='margin-top: 11px; margin-bottom: 11px;'>
       <span>${escape(data['content'].text)}</span>
     </p>
     <footer>
@@ -61,10 +61,13 @@ $(document).ready(function () {
     const formValues = $(this).serialize();
     const input = $('#tweet-text').val();
     console.log(input);
+    $('.new-tweet p').slideUp();
     if (!input) {
       alert('the tweet is empty');
     } else if (input.length > 140) {
-      $('.new-tweet p').addClass('show');
+      $('.new-tweet p').slideDown(function(){
+        $('.new-tweet p').addClass('show');
+      });
     } else {
       $.post('/tweets', formValues)
         .then(() => {
