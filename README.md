@@ -14,11 +14,13 @@ This repository is the starter code for the project: Students will fork and clon
 4. Go to <http://localhost:8080/> in your browser.
 
 ## Screenshots
-
+Screenshot of tweet homepage:
 !['Screenshot of tweet homepage'](https://user-images.githubusercontent.com/114049732/210890819-5f37c28e-6a48-4f4f-a3fa-ce6711239f65.png)
 
+Screenshot of tweet homepage in desktop view:
 !['Screenshot of tweet homepage in desktop view'](https://user-images.githubusercontent.com/114049732/210890706-02b6719d-2ffc-4e5b-a804-b48732e42639.png)
 
+Screenshot of tweets:
 !['Screenshot of tweets'](https://user-images.githubusercontent.com/114049732/210890906-5563ca02-6330-49ff-88df-81867462c435.png)
 
 ## Dependencies
