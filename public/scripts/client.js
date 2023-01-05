@@ -21,8 +21,7 @@ $(document).ready(function () {
       </span>
       <span style='color: lightgrey;'>${data['user']['handle']}</span>
     </header>
-    <br>
-    <p class='text' style='margin-top: 11px; margin-bottom: 11px;'>
+    <p class='text' style='margin-bottom: 11px; margin-top: 1.5em'>
       <span>${escape(data['content'].text)}</span>
     </p>
     <footer>
@@ -34,17 +33,16 @@ $(document).ready(function () {
       </div>
     </footer>
   </article>
-  <br>
   `;
     return tweet;
   };
 
   const renderTweets = function (tweets) {
-    $('#tweets-container').empty();
+    $('#tweets-container').empty(); //remove the 2 tweets from the browser
     for (let i = tweets.length - 1; i >= 0; i--) {
       const $each = createTweetElement(tweets[i]);
       $('#tweets-container').append($each);
-    }
+    } //repost all 3 tweets at the same time.
   };
 
   //get request func
@@ -59,8 +57,7 @@ $(document).ready(function () {
   $("form").submit(function (event) {
     event.preventDefault();
     const formValues = $(this).serialize();
-    const input = $('#tweet-text').val();
-    console.log(input);
+    const input = $('.text').val();
     $('.new-tweet p').slideUp();
     if (!input) {
       alert('the tweet is empty');

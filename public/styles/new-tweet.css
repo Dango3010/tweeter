@@ -1,19 +1,18 @@
-new-tweet {
+.new-tweet {
   display: flex;
   flex-direction: column;
   align-items: inherit;
+  margin-bottom: 2.5em;
 }
 
 .text {
   width: -webkit-fill-available;
   background-color: #f4f1ec;
+  border: hidden;
   border-bottom: solid;
-  border-top: hidden;
-  border-right: hidden;
-  border-left: hidden;
 }
 
-div.button {
+.button {
   display: flex;
   justify-content: space-between;
   padding: 0.5em;

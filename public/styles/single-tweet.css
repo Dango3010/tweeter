@@ -1,16 +1,15 @@
-article#single-tweet {
+#single-tweet {
   border: solid;
   padding: 10px;
+  margin-bottom: 30px;
 }
 
-article#single-tweet header, footer {
+#single-tweet header, footer {
   display: flex;
   justify-content: space-between;
-  padding-left: 6px; 
-  padding-right: 20px;
 }
 
-article#single-tweet div {
+#single-tweet div {
   display: flex;
   justify-content: space-between;
   font-size: 15px; 
@@ -18,7 +17,7 @@ article#single-tweet div {
   padding-right: 15px;
 }
 
-article#single-tweet:hover {
+#single-tweet:hover {
   box-shadow: 7px 5px lightgrey;
 }
 

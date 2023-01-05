@@ -1,4 +1,4 @@
-header#head {
+#head {
   background-color: antiquewhite;
   background-image: url("https://www.transparenttextures.com/patterns/argyle.png");
   height: 520px;
@@ -9,3 +9,32 @@ header#head {
   justify-content: end;
 }
 
+@media only screen and (min-width: 800px) {
+  body{
+    flex-direction: row;
+    align-items: stretch;
+  }
+
+  #head{
+    width: 40%;
+    height: 340px;
+    margin: 230px 110px 90px 40px;
+    padding: 80px 80px 50px;
+  }
+
+  .image{
+    scale: 0.9;
+    height: 220px;
+  }
+
+  #name{
+    height: 0px;
+    font-size: 28px;
+  }
+  
+  main{
+    margin: 73px 40px 40px;
+    float: right;
+    scale: 0.9;
+  }
+}

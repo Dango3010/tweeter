@@ -1,10 +1,12 @@
 nav {
   height: 120px;
   padding: 1.5em;
+  padding-bottom: 1em;
   background-color: #4056A1;
   color: #FFFFFF;
   position: fixed;
   width: -webkit-fill-available;
+  z-index: 10;
 
   display: flex;
   flex-direction: row;

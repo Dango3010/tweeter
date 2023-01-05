@@ -1,5 +1,5 @@
 $(document).ready(function() {
-  $("#tweet-text").on('input', function() {
+  $(".text").on('input', function() {
     const input = $(this).val().length;
     const left = 140 - input;
     console.log(input);

@@ -36,13 +36,12 @@
         <i class="fa-solid fa-angles-down" style="color: orangered"></i>
       </span>
     </nav>
-
     <header id='head'>
-      <div>
+      <div class='image'>
           <img src="/images/profile-hex.png"> 
       </div>
       <div>
-          <h2>Dango</h2>
+          <h2 id="name">Dango</h2>
       </div>
     </header>
 
@@ -56,15 +55,13 @@
         </p>
         <h2>Compose Tweet</h2>
         <form>
-          <textarea class='text' name="text" id="tweet-text"></textarea>
+          <textarea class='text' name="text"></textarea>
           <div class='button'>
-            <button type="submit" id='load-more-posts'>Tweet</button>
+            <button type="submit">Tweet</button>
             <output name="counter" class="counter" for="tweet-text">140</output>
           </div>
         </form>
       </section>
-      <br>
-      <br>
       <section id='tweets-container'></section>
     </main>
   </body>
