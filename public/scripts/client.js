@@ -47,7 +47,7 @@ $(document).ready(function () {
 
   //get request func
   const loadTweets = function () {
-    $.get('/tweets', function (data) {
+    $.get('/tweets', function (data) { //data is the content of the /tweets
       console.log('Success: ', data);
       renderTweets(data);
     })
