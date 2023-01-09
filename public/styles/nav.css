@@ -2,7 +2,8 @@ nav {
   height: 120px;
   padding: 1.5em;
   padding-bottom: 1em;
-  background-color: #4056A1;
+  background-color: antiquewhite;
+  background-image: url("https://www.transparenttextures.com/patterns/argyle.png");
   color: #FFFFFF;
   position: fixed;
   width: -webkit-fill-available;

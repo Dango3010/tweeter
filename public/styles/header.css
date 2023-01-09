@@ -10,6 +10,11 @@
 }
 
 @media only screen and (min-width: 800px) {
+  nav{
+    background-color: #4056A1;
+    background-image: none;
+  }
+  
   body{
     flex-direction: row;
     align-items: stretch;
@@ -18,7 +23,7 @@
   #head{
     width: 40%;
     height: 340px;
-    margin: 230px 110px 90px 40px;
+    margin: 210px 110px 90px 40px;
     padding: 80px 80px 50px;
   }
 
@@ -28,12 +33,12 @@
   }
 
   #name{
-    height: 0px;
-    font-size: 28px;
+    height: 60px;
+    font-size: 23px;
   }
   
   main{
-    margin: 73px 40px 40px;
+    margin: 23px 40px 40px;
     float: right;
     scale: 0.9;
   }

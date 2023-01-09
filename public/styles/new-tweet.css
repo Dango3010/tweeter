@@ -32,7 +32,7 @@ output.negative{
   color: red;
 }
 
-.new-tweet p{
+.new-tweet p, span.empty{
   display: none;
 }
 
@@ -42,4 +42,13 @@ output.negative{
   border: solid;
   text-align: left;
   padding: 10px;
+}
+
+.new-tweet span.showUp{
+  display: block;
+  color: red;
+  border: solid;
+  text-align: left;
+  padding: 10px;
+  margin-top: 20px;
 }

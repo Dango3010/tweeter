@@ -5,7 +5,7 @@
  */
 $(document).ready(function () {
 
-  const createTweetElement = function (data) {
+  const createTweetElement = function (data) { //rendering the below template into <section>
     const escape = function (str) {
       let div = document.createElement("div");
       div.appendChild(document.createTextNode(str));
@@ -45,7 +45,7 @@ $(document).ready(function () {
     } //repost all 3 tweets at the same time.
   };
 
-  //get request func
+  //get request func, getting an array of data for renderTweets to loop through
   const loadTweets = function () {
     $.get('/tweets', function (data) { //data is the content of the /tweets
       console.log('Success: ', data);
@@ -53,14 +53,20 @@ $(document).ready(function () {
     })
   }
 
-  //form submission
+  //form submission 
   $("form").submit(function (event) {
     event.preventDefault();
     const formValues = $(this).serialize();
     const input = $('.text').val();
-    $('.new-tweet p').slideUp();
+    $('.counter').text(140); //reset the counter func back to 140 after a new post
+    
+    //testing invalidation
+    $('.new-tweet span.empty').slideUp();
+    $('.new-tweet p').slideUp(); 
     if (!input) {
-      alert('the tweet is empty');
+      $('.new-tweet span.empty').slideDown(function(){
+        $('.new-tweet span.empty').addClass('showUp');
+      });
     } else if (input.length > 140) {
       $('.new-tweet p').slideDown(function(){
         $('.new-tweet p').addClass('show');
