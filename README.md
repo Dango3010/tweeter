@@ -22,7 +22,9 @@ Screenshot of tweet homepage in desktop view:
 !['Screenshot of tweet homepage in desktop view'](https://user-images.githubusercontent.com/114049732/210890706-02b6719d-2ffc-4e5b-a804-b48732e42639.png)
 
 How the app acts like Twitter:
-https://github.com/Dango3010/tweeter/assets/114049732/f17e6045-d63e-4fb3-9694-6dd876de2eb4
+
+https://github.com/Dango3010/tweeter/assets/114049732/33c28774-a115-46b4-8de4-8d4d2340169c
+
 
 ## Dependencies
 
