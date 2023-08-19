@@ -13,15 +13,16 @@ The project forked from LightHouse Labs boot camp acts as the starter code to bu
   if it doesn't work, try 'npm start' to run the app
 4. Go to <http://localhost:8080/> in your browser.
 
-## Screenshots
-Screenshot of tweet homepage:
+## Overview
+
+Screenshot of tweet homepage in mobile view:
 !['Screenshot of tweet homepage'](https://user-images.githubusercontent.com/114049732/210890819-5f37c28e-6a48-4f4f-a3fa-ce6711239f65.png)
 
 Screenshot of tweet homepage in desktop view:
 !['Screenshot of tweet homepage in desktop view'](https://user-images.githubusercontent.com/114049732/210890706-02b6719d-2ffc-4e5b-a804-b48732e42639.png)
 
-Screenshot of tweets:
-!['Screenshot of tweets'](https://user-images.githubusercontent.com/114049732/210890906-5563ca02-6330-49ff-88df-81867462c435.png)
+How the app acts like Twitter:
+https://github.com/Dango3010/tweeter/assets/114049732/f17e6045-d63e-4fb3-9694-6dd876de2eb4
 
 ## Dependencies
 
