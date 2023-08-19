@@ -5,12 +5,13 @@
  */
 $(document).ready(function () {
 
-  const createTweetElement = function (data) { //rendering the below template into <section>
+  //rendering the below template into <section>
+  const createTweetElement = function (data) { 
     const escape = function (str) {
       let div = document.createElement("div");
       div.appendChild(document.createTextNode(str));
       return div.innerHTML;
-    }; //not interpreted (triggering, having effect as JS), but renders the string as normal text.
+    }; 
     const time = timeago.format(data['created_at']);
     let tweet = `
   <article id='single-tweet'>
@@ -38,16 +39,19 @@ $(document).ready(function () {
   };
 
   const renderTweets = function (tweets) {
-    $('#tweets-container').empty(); //remove the 2 tweets from the browser
+    //remove the current tweets from the browser
+    $('#tweets-container').empty(); 
+    
+    //repost both old and new tweets at the same time.
     for (let i = tweets.length - 1; i >= 0; i--) {
       const $each = createTweetElement(tweets[i]);
       $('#tweets-container').append($each);
-    } //repost all 3 tweets at the same time.
+    } 
   };
 
   //get request func, getting an array of data for renderTweets to loop through
   const loadTweets = function () {
-    $.get('/tweets', function (data) { //data is the content of the /tweets
+    $.get('/tweets', function (data) { 
       console.log('Success: ', data);
       renderTweets(data);
     })
